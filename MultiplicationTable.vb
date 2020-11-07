@@ -41,7 +41,7 @@ Module MultiplicationTable
             For column = 1 To numberInput
                 For row = 1 To numberInput
                     data(row, column) = row * column
-                    Console.Write(data(row, column) & vbTab)
+                    Console.Write(data(row, column) & vbTab) ' use padleft to get consistent column width - TJR
                 Next
                 Console.WriteLine()
             Next
